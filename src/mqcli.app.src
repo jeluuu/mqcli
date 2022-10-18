@@ -17,7 +17,7 @@
     sasl,
     lager,
     amqp_client,
-    rabbit_common,
+    rabbit_common
     % ensq
   ]},
   {mod, {mqcli_app, []}},
