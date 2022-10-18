@@ -18,7 +18,7 @@
     lager,
     amqp_client,
     rabbit_common,
-    ensq
+    % ensq
   ]},
   {mod, {mqcli_app, []}},
   {env, []}
