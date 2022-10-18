@@ -1,0 +1,25 @@
+%%%-------------------------------------------------------------------
+%%% @author marco
+%%% @copyright (C) 2020, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 04. Jun 2020 10:42 PM
+%%%-------------------------------------------------------------------
+{application, mqcli, [
+  {description, "mqcli"},
+  {vsn, "0.1.0"},
+  {registered, [amqp_client]},
+  {applications, [
+    kernel,
+    stdlib,
+    jsx,
+    sasl,
+    lager,
+    amqp_client,
+    rabbit_common,
+    ensq
+  ]},
+  {mod, {mqcli_app, []}},
+  {env, []}
+]}.

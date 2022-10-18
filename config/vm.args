@@ -1,0 +1,6 @@
+-sname mqcli
+
+-setcookie mqcli_cookie
+
++K true
++A30
